@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054D7FD426AF062E00851525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FD326AF062E00851525 /* AppDelegate.swift */; };
+		054D7FD826AF062E00851525 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FD726AF062E00851525 /* RecordingViewController.swift */; };
+		054D7FDD26AF063100851525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054D7FDC26AF063100851525 /* Assets.xcassets */; };
+		054D7FE026AF063100851525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054D7FDE26AF063100851525 /* LaunchScreen.storyboard */; };
+		054D7FE826AF066100851525 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FE726AF066100851525 /* RecordingView.swift */; };
+		054D7FEE26AF078800851525 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FED26AF078800851525 /* Configurable.swift */; };
+		054D7FF026AF0A2B00851525 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FEF26AF0A2B00851525 /* PreviewView.swift */; };
+		054D7FF526AF189600851525 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FF426AF189600851525 /* EditorViewController.swift */; };
+		054D7FF726AF18A000851525 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FF626AF18A000851525 /* EditorView.swift */; };
+		054D7FF926AF194900851525 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7FF826AF194900851525 /* PlayerView.swift */; };
+		054D801A26B02CF800851525 /* VideoPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D801926B02CF800851525 /* VideoPreprocessor.swift */; };
+		054D801E26B04A4400851525 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D801D26B04A4400851525 /* AudioPlayer.swift */; };
+		054D802426B056BE00851525 /* PresetSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D802326B056BE00851525 /* PresetSelectorView.swift */; };
+		054D802626B0583500851525 /* PresetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D802526B0583500851525 /* PresetButton.swift */; };
+		054D802826B064B900851525 /* AudioPressetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D802726B064B900851525 /* AudioPressetFactory.swift */; };
+		054D802A26B072B100851525 /* VideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D802926B072B100851525 /* VideoExporter.swift */; };
+		054D802E26B0D75600851525 /* ResultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D802D26B0D75600851525 /* ResultExtensions.swift */; };
+		054D803026B0D77000851525 /* AudioEffectPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D802F26B0D77000851525 /* AudioEffectPreset.swift */; };
+		054D803226B0D7A400851525 /* EditingVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D803126B0D7A400851525 /* EditingVideo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		054D7FD026AF062E00851525 /* Voice Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		054D7FD326AF062E00851525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		054D7FD726AF062E00851525 /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		054D7FDC26AF063100851525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		054D7FDF26AF063100851525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		054D7FE126AF063100851525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054D7FE726AF066100851525 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		054D7FED26AF078800851525 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		054D7FEF26AF0A2B00851525 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		054D7FF426AF189600851525 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		054D7FF626AF18A000851525 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		054D7FF826AF194900851525 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		054D801926B02CF800851525 /* VideoPreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreprocessor.swift; sourceTree = "<group>"; };
+		054D801D26B04A4400851525 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		054D802326B056BE00851525 /* PresetSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetSelectorView.swift; sourceTree = "<group>"; };
+		054D802526B0583500851525 /* PresetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetButton.swift; sourceTree = "<group>"; };
+		054D802726B064B900851525 /* AudioPressetFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPressetFactory.swift; sourceTree = "<group>"; };
+		054D802926B072B100851525 /* VideoExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoExporter.swift; sourceTree = "<group>"; };
+		054D802D26B0D75600851525 /* ResultExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExtensions.swift; sourceTree = "<group>"; };
+		054D802F26B0D77000851525 /* AudioEffectPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEffectPreset.swift; sourceTree = "<group>"; };
+		054D803126B0D7A400851525 /* EditingVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingVideo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054D7FCD26AF062E00851525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054D7FC726AF062E00851525 = {
+			isa = PBXGroup;
+			children = (
+				054D7FD226AF062E00851525 /* Voice Changer */,
+				054D7FD126AF062E00851525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054D7FD126AF062E00851525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054D7FD026AF062E00851525 /* Voice Changer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054D7FD226AF062E00851525 /* Voice Changer */ = {
+			isa = PBXGroup;
+			children = (
+				054D803426B0D7CE00851525 /* Modules */,
+				054D803326B0D7BC00851525 /* Extensions */,
+				054D802C26B0D74200851525 /* Model */,
+				054D7FEA26AF072700851525 /* Service */,
+				054D7FD326AF062E00851525 /* AppDelegate.swift */,
+				054D7FDC26AF063100851525 /* Assets.xcassets */,
+				054D7FDE26AF063100851525 /* LaunchScreen.storyboard */,
+				054D7FE126AF063100851525 /* Info.plist */,
+			);
+			path = "Voice Changer";
+			sourceTree = "<group>";
+		};
+		054D7FE926AF066500851525 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				054D7FEF26AF0A2B00851525 /* PreviewView.swift */,
+				054D7FE726AF066100851525 /* RecordingView.swift */,
+				054D7FD726AF062E00851525 /* RecordingViewController.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		054D7FEA26AF072700851525 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				054D802726B064B900851525 /* AudioPressetFactory.swift */,
+				054D802926B072B100851525 /* VideoExporter.swift */,
+				054D801D26B04A4400851525 /* AudioPlayer.swift */,
+				054D801926B02CF800851525 /* VideoPreprocessor.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		054D7FF326AF188A00851525 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				054D802B26B0D45100851525 /* Views */,
+				054D7FF426AF189600851525 /* EditorViewController.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		054D802B26B0D45100851525 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				054D7FF626AF18A000851525 /* EditorView.swift */,
+				054D7FF826AF194900851525 /* PlayerView.swift */,
+				054D802326B056BE00851525 /* PresetSelectorView.swift */,
+				054D802526B0583500851525 /* PresetButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		054D802C26B0D74200851525 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				054D802F26B0D77000851525 /* AudioEffectPreset.swift */,
+				054D803126B0D7A400851525 /* EditingVideo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		054D803326B0D7BC00851525 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				054D7FED26AF078800851525 /* Configurable.swift */,
+				054D802D26B0D75600851525 /* ResultExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		054D803426B0D7CE00851525 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				054D7FF326AF188A00851525 /* Editor */,
+				054D7FE926AF066500851525 /* Recording */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054D7FCF26AF062E00851525 /* Voice Changer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054D7FE426AF063100851525 /* Build configuration list for PBXNativeTarget "Voice Changer" */;
+			buildPhases = (
+				054D7FCC26AF062E00851525 /* Sources */,
+				054D7FCD26AF062E00851525 /* Frameworks */,
+				054D7FCE26AF062E00851525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Changer";
+			productName = "Voice Changer";
+			productReference = 054D7FD026AF062E00851525 /* Voice Changer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054D7FC826AF062E00851525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					054D7FCF26AF062E00851525 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 054D7FCB26AF062E00851525 /* Build configuration list for PBXProject "Voice Changer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 054D7FC726AF062E00851525;
+			productRefGroup = 054D7FD126AF062E00851525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054D7FCF26AF062E00851525 /* Voice Changer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054D7FCE26AF062E00851525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054D7FE026AF063100851525 /* LaunchScreen.storyboard in Resources */,
+				054D7FDD26AF063100851525 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054D7FCC26AF062E00851525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054D7FEE26AF078800851525 /* Configurable.swift in Sources */,
+				054D7FF926AF194900851525 /* PlayerView.swift in Sources */,
+				054D7FD826AF062E00851525 /* RecordingViewController.swift in Sources */,
+				054D802426B056BE00851525 /* PresetSelectorView.swift in Sources */,
+				054D803026B0D77000851525 /* AudioEffectPreset.swift in Sources */,
+				054D802E26B0D75600851525 /* ResultExtensions.swift in Sources */,
+				054D802826B064B900851525 /* AudioPressetFactory.swift in Sources */,
+				054D802A26B072B100851525 /* VideoExporter.swift in Sources */,
+				054D7FD426AF062E00851525 /* AppDelegate.swift in Sources */,
+				054D801E26B04A4400851525 /* AudioPlayer.swift in Sources */,
+				054D803226B0D7A400851525 /* EditingVideo.swift in Sources */,
+				054D7FE826AF066100851525 /* RecordingView.swift in Sources */,
+				054D7FF726AF18A000851525 /* EditorView.swift in Sources */,
+				054D801A26B02CF800851525 /* VideoPreprocessor.swift in Sources */,
+				054D802626B0583500851525 /* PresetButton.swift in Sources */,
+				054D7FF026AF0A2B00851525 /* PreviewView.swift in Sources */,
+				054D7FF526AF189600851525 /* EditorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		054D7FDE26AF063100851525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054D7FDF26AF063100851525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054D7FE226AF063100851525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		054D7FE326AF063100851525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054D7FE526AF063100851525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BLD5M3GWZ8;
+				INFOPLIST_FILE = "Voice Changer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acacuce.Voice-Changer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		054D7FE626AF063100851525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BLD5M3GWZ8;
+				INFOPLIST_FILE = "Voice Changer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acacuce.Voice-Changer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054D7FCB26AF062E00851525 /* Build configuration list for PBXProject "Voice Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054D7FE226AF063100851525 /* Debug */,
+				054D7FE326AF063100851525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054D7FE426AF063100851525 /* Build configuration list for PBXNativeTarget "Voice Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054D7FE526AF063100851525 /* Debug */,
+				054D7FE626AF063100851525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054D7FC826AF062E00851525 /* Project object */;
+}
