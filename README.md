@@ -8,3 +8,6 @@ The app work as follows:
 * Preview: The app allow the user to preview the video with and apply effect to audio before exporting.
 * Export: The user be able to export the new video with the replaced voiceover. The app could save the file to the device or share it directly on social media platforms.
 
+
+https://user-images.githubusercontent.com/14136866/222136010-a84ff687-8a11-4a00-8c91-4193c84891a4.mp4
+
